@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-padding {
+  @apply px-6 py-20 md:px-12 md:py-28 lg:px-24;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-serif font-bold text-secondary mb-12 text-center;
+}
